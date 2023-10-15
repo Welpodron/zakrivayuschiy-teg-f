@@ -1,18 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" fill="none" viewBox="0 0 256 256">
 <style>
 :root {
-  --color-black-1: #000000;
-  --color-green-1: #00cc14;
-  --favicon-color: var(--color-black-1, #000000);
+  --color-black: #000000;
+  --color-green: #00cc14;
+  --favicon-color: var(--color-black, #000000);
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --favicon-color: var(--color-green-1, #00cc14);
+    --favicon-color: var(--color-green, #00cc14);
   }
 }
 @media (prefers-color-scheme: light) {
   :root {
-    --favicon-color: var(--color-black-1, #000000);
+    --favicon-color: var(--color-black, #000000);
   }
 }
 </style>

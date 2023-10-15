@@ -81,11 +81,11 @@
 }
 
 .like-icon.is-liked .heart {
-  animation: heart 0.3s ease-in 0.1s 2 alternate;
+  animation: heart 0.3s ease-in 0.1s 1 alternate;
 }
 
 .like-icon.is-liked .sparks {
-  animation: sparks 0.3s ease-in 0.3s 2 alternate;
+  animation: sparks 0.3s ease-in 0.3s 1 alternate;
 }
 
 @keyframes heart {
@@ -107,10 +107,11 @@
 }
 
 @keyframes arrow {
+  /* Safari fix */
   from {
-    transform: translate(0, -50%);
+    transform: translate(0);
   }
   to {
-    transform: translate(4px, -50%);
+    transform: translate(4px);
   }
 }
